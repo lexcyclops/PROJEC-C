@@ -1,7 +1,7 @@
 # PROJEC-C
 First project in C (Student Record Management System)
 
-In this project I add 
+## In this project I add 
 
 * Variables
 * Sructure
