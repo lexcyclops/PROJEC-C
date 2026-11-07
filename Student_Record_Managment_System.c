@@ -18,9 +18,9 @@ int main(){
 
     fptr=fopen("Student_record.txt","a");
 
-    if(fptr==0){
+    if(fptr == NULL){
         printf("Failed to open file\n");
-        return(0);
+        return 0;
     }
 
     for(i=0;i<n;i++){
@@ -45,7 +45,7 @@ int main(){
         else if(s.marks>=50){
             s.grade='C';
         }
-        else if(s.grade>=35){
+        else if(s.marks>=35){
             s.grade='D';
         }
         else{
